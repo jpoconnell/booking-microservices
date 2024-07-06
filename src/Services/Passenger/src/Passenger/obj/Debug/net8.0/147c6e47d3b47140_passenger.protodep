@@ -1,0 +1,2 @@
+obj/Debug/net8.0/GrpcServer/Protos/Passenger.cs \
+obj/Debug/net8.0/GrpcServer/Protos/PassengerGrpc.cs: GrpcServer/Protos/passenger.proto

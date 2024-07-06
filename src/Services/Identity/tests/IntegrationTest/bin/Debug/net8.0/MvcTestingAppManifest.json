@@ -1,0 +1,5 @@
+{
+  "BuildingBlocks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/gitRepos\/exampleRepos\/microservice-examples\/booking-microservices\/src\/BuildingBlocks",
+  "Identity.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/gitRepos\/exampleRepos\/microservice-examples\/booking-microservices\/src\/Services\/Identity\/src\/Identity.Api",
+  "Identity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/jeremiahoconnell\/gitRepos\/exampleRepos\/microservice-examples\/booking-microservices\/src\/Services\/Identity\/src\/Identity"
+}
