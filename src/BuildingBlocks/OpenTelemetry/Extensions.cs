@@ -14,7 +14,7 @@ public static class Extensions
     {
         services.AddOpenTelemetry()
             .WithTracing(builder => builder
-                .AddGrpcClientInstrumentation()
+                //.AddGrpcClientInstrumentation()
                 .AddMassTransitInstrumentation()
                 .AddAspNetCoreInstrumentation()
                 .AddHttpClientInstrumentation()
@@ -23,7 +23,7 @@ public static class Extensions
                 .AddJaegerExporter())
             .WithMetrics(builder =>
                 {
-                    builder.AddPrometheusExporter();
+                    //builder.AddPrometheusExporter();
                     builder.AddMeter(
                         "Microsoft.AspNetCore.Hosting",
                         "Microsoft.AspNetCore.Server.Kestrel"

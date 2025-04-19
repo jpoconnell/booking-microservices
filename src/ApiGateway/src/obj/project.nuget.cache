@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "PlmYXZGBJP0=",
-  "success": false,
+  "dgSpecHash": "zhBu8nFvXYk=",
+  "success": true,
   "projectFilePath": "/home/jerryocl/gitRepos/booking-microservices/src/ApiGateway/src/ApiGateway.csproj",
   "expectedPackageFiles": [
     "/home/jerryocl/.nuget/packages/ardalis.guardclauses/5.0.0/ardalis.guardclauses.5.0.0.nupkg.sha512",
@@ -166,8 +166,10 @@
     "/home/jerryocl/.nuget/packages/opentelemetry.api.providerbuilderextensions/1.11.2/opentelemetry.api.providerbuilderextensions.1.11.2.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/opentelemetry.contrib.instrumentation.masstransit/1.0.0-beta2/opentelemetry.contrib.instrumentation.masstransit.1.0.0-beta2.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/opentelemetry.exporter.jaeger/1.6.0-rc.1/opentelemetry.exporter.jaeger.1.6.0-rc.1.nupkg.sha512",
+    "/home/jerryocl/.nuget/packages/opentelemetry.exporter.prometheus.aspnetcore/1.11.2-beta.1/opentelemetry.exporter.prometheus.aspnetcore.1.11.2-beta.1.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/opentelemetry.extensions.hosting/1.11.2/opentelemetry.extensions.hosting.1.11.2.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/opentelemetry.instrumentation.aspnetcore/1.11.1/opentelemetry.instrumentation.aspnetcore.1.11.1.nupkg.sha512",
+    "/home/jerryocl/.nuget/packages/opentelemetry.instrumentation.grpcnetclient/1.11.0-beta.2/opentelemetry.instrumentation.grpcnetclient.1.11.0-beta.2.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/opentelemetry.instrumentation.http/1.11.1/opentelemetry.instrumentation.http.1.11.1.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/polly/8.5.2/polly.8.5.2.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/polly.core/8.5.2/polly.core.8.5.2.nupkg.sha512",
@@ -312,24 +314,5 @@
     "/home/jerryocl/.nuget/packages/yarp.reverseproxy/2.3.0/yarp.reverseproxy.2.3.0.nupkg.sha512",
     "/home/jerryocl/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Unable to find package OpenTelemetry.Exporter.Prometheus.AspNetCore with version (>= 1.11.2)\n  - Found 23 version(s) in nuget.org [ Nearest version: 1.11.2-beta.1 ]\n  - Found 0 version(s) in /usr/lib/dotnet/library-packs",
-      "libraryId": "OpenTelemetry.Exporter.Prometheus.AspNetCore",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1103",
-      "level": "Error",
-      "message": "Unable to find a stable package OpenTelemetry.Instrumentation.GrpcNetClient with version (>= 1.10.0)\n  - Found 38 version(s) in nuget.org [ Nearest version: 1.11.0-beta.1 ]\n  - Found 0 version(s) in /usr/lib/dotnet/library-packs",
-      "libraryId": "OpenTelemetry.Instrumentation.GrpcNetClient",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  "logs": []
 }
