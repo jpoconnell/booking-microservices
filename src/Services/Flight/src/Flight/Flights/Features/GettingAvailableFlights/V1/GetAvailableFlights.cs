@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace Flight.Flights.Features.GettingAvailableFlights.V1;
 
 using System;
