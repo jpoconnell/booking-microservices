@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/Services/Flight/src/Flight/Flight.csproj": {}
+    "/home/jerryocl/gitRepos/booking-microservices/src/Services/Flight/src/Flight/Flight.csproj": {}
   },
   "projects": {
-    "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj": {
+    "/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj",
         "projectName": "BuildingBlocks",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +38,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -46,7 +47,7 @@
           "dependencies": {
             "Ardalis.GuardClauses": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[5.0.0, )"
             },
             "Asp.Versioning.Abstractions": {
               "target": "Package",
@@ -66,39 +67,39 @@
             },
             "AspNetCore.HealthChecks.Elasticsearch": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.EventStore": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.MongoDb": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.NpgSql": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.Rabbitmq": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.UI": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.Client": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.InMemory.Storage": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AspNetCore.HealthChecks.UI.SQLite.Storage": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "AutoBogus": {
               "target": "Package",
@@ -106,27 +107,27 @@
             },
             "Bogus": {
               "target": "Package",
-              "version": "[35.5.0, )"
+              "version": "[35.6.3, )"
             },
             "Duende.IdentityServer": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.2.1, )"
             },
             "Duende.IdentityServer.AspNetIdentity": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.2.1, )"
             },
             "Duende.IdentityServer.EntityFramework": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.2.1, )"
             },
             "Duende.IdentityServer.EntityFramework.Storage": {
               "target": "Package",
-              "version": "[7.0.3, )"
+              "version": "[7.2.1, )"
             },
             "EFCore.NamingConventions": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.0, )"
             },
             "EasyCaching.Core": {
               "target": "Package",
@@ -138,11 +139,11 @@
             },
             "EasyNetQ.Management.Client": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[3.0.0, )"
             },
             "EventStore.Client.Grpc.Streams": {
               "target": "Package",
-              "version": "[23.2.1, )"
+              "version": "[23.3.8, )"
             },
             "Figgle": {
               "target": "Package",
@@ -150,11 +151,11 @@
             },
             "FluentAssertions": {
               "target": "Package",
-              "version": "[6.12.0, )"
+              "version": "[8.2.0, )"
             },
             "FluentValidation": {
               "target": "Package",
-              "version": "[11.9.0, )"
+              "version": "[11.11.0, )"
             },
             "FluentValidation.AspNetCore": {
               "target": "Package",
@@ -162,7 +163,7 @@
             },
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.26.1, )"
+              "version": "[3.30.2, )"
             },
             "Grpc.Core.Testing": {
               "target": "Package",
@@ -170,7 +171,7 @@
             },
             "Grpc.Net.ClientFactory": {
               "target": "Package",
-              "version": "[2.62.0, )"
+              "version": "[2.70.0, )"
             },
             "Humanizer.Core": {
               "target": "Package",
@@ -178,7 +179,7 @@
             },
             "IdGen": {
               "target": "Package",
-              "version": "[3.0.5, )"
+              "version": "[3.0.7, )"
             },
             "Mapster": {
               "target": "Package",
@@ -190,99 +191,99 @@
             },
             "MassTransit": {
               "target": "Package",
-              "version": "[8.2.0, )"
+              "version": "[8.4.0, )"
             },
             "MassTransit.RabbitMQ": {
               "target": "Package",
-              "version": "[8.2.0, )"
+              "version": "[8.4.0, )"
             },
             "MediatR": {
               "target": "Package",
-              "version": "[12.2.0, )"
+              "version": "[12.5.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.AspNetCore.Mvc.Testing": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.AspNetCore.TestHost": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.Configuration.Binder": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.DependencyModel": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.Diagnostics.HealthChecks": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.Http.Polly": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.Extensions.Logging.Abstractions": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.4, )"
             },
             "Microsoft.VisualStudio.Threading.Analyzers": {
               "target": "Package",
-              "version": "[17.9.28, )"
+              "version": "[17.13.61, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.24.0, )"
+              "version": "[3.3.0, )"
             },
             "NSubstitute": {
               "target": "Package",
-              "version": "[5.1.0, )"
+              "version": "[5.3.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -290,15 +291,15 @@
             },
             "Npgsql": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[8.0.2, )"
+              "version": "[9.0.4, )"
             },
             "OpenTelemetry": {
               "target": "Package",
-              "version": "[1.8.0-rc.1, )"
+              "version": "[1.11.2, )"
             },
             "OpenTelemetry.Contrib.Instrumentation.MassTransit": {
               "target": "Package",
@@ -310,27 +311,27 @@
             },
             "OpenTelemetry.Exporter.Prometheus.AspNetCore": {
               "target": "Package",
-              "version": "[1.8.0-rc.1, )"
+              "version": "[1.11.2, )"
             },
             "OpenTelemetry.Extensions.Hosting": {
               "target": "Package",
-              "version": "[1.8.0-rc.1, )"
+              "version": "[1.11.2, )"
             },
             "OpenTelemetry.Instrumentation.AspNetCore": {
               "target": "Package",
-              "version": "[1.7.1, )"
+              "version": "[1.11.1, )"
             },
             "OpenTelemetry.Instrumentation.GrpcNetClient": {
               "target": "Package",
-              "version": "[1.7.0-beta.1, )"
+              "version": "[1.10.0, )"
             },
             "OpenTelemetry.Instrumentation.Http": {
               "target": "Package",
-              "version": "[1.7.1, )"
+              "version": "[1.11.1, )"
             },
             "Polly": {
               "target": "Package",
-              "version": "[8.3.1, )"
+              "version": "[8.5.2, )"
             },
             "Respawn": {
               "target": "Package",
@@ -338,19 +339,19 @@
             },
             "Scrutor": {
               "target": "Package",
-              "version": "[4.2.2, )"
+              "version": "[6.0.1, )"
             },
             "Sentry.Serilog": {
               "target": "Package",
-              "version": "[4.2.1, )"
+              "version": "[5.5.1, )"
             },
             "Serilog": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[4.2.0, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Enrichers.Span": {
               "target": "Package",
@@ -366,7 +367,7 @@
             },
             "Serilog.Sinks.Console": {
               "target": "Package",
-              "version": "[5.0.1, )"
+              "version": "[6.0.0, )"
             },
             "Serilog.Sinks.Elasticsearch": {
               "target": "Package",
@@ -374,7 +375,7 @@
             },
             "Serilog.Sinks.Seq": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Serilog.Sinks.SpectreConsole": {
               "target": "Package",
@@ -382,7 +383,7 @@
             },
             "Serilog.Sinks.XUnit": {
               "target": "Package",
-              "version": "[3.0.5, )"
+              "version": "[3.0.19, )"
             },
             "Sieve": {
               "target": "Package",
@@ -390,15 +391,15 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[8.1.1, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[8.1.1, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[8.1.1, )"
             },
             "System.Linq.Async": {
               "target": "Package",
@@ -410,35 +411,35 @@
             },
             "Testcontainers": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[4.4.0, )"
             },
             "Testcontainers.EventStoreDb": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[4.4.0, )"
             },
             "Testcontainers.MongoDb": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[4.4.0, )"
             },
             "Testcontainers.PostgreSql": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[4.4.0, )"
             },
             "Testcontainers.RabbitMq": {
               "target": "Package",
-              "version": "[3.8.0, )"
+              "version": "[4.4.0, )"
             },
             "Unchase.Swashbuckle.AspNetCore.Extensions": {
               "target": "Package",
-              "version": "[2.7.1, )"
+              "version": "[2.7.2, )"
             },
             "WebMotions.Fake.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.1, )"
+              "version": "[9.0.0, )"
             },
             "Yarp.ReverseProxy": {
               "target": "Package",
-              "version": "[2.1.0, )"
+              "version": "[2.3.0, )"
             },
             "prometheus-net": {
               "target": "Package",
@@ -448,6 +449,11 @@
               "target": "Package",
               "version": "[8.2.1, )"
             }
+          },
+          "centralPackageVersions": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": "7.0.0",
+            "Microsoft.SourceLink.GitHub": "1.1.1",
+            "StyleCop.Analyzers": "1.2.0-beta.435"
           },
           "imports": [
             "net461",
@@ -460,40 +466,50 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/Services/Flight/src/Flight/Flight.csproj": {
+    "/home/jerryocl/gitRepos/booking-microservices/src/Services/Flight/src/Flight/Flight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/Services/Flight/src/Flight/Flight.csproj",
+        "projectUniqueName": "/home/jerryocl/gitRepos/booking-microservices/src/Services/Flight/src/Flight/Flight.csproj",
         "projectName": "Flight",
-        "projectPath": "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/Services/Flight/src/Flight/Flight.csproj",
-        "packagesPath": "/Users/jeremiahoconnell/.nuget/packages/",
-        "outputPath": "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/Services/Flight/src/Flight/obj/",
+        "projectPath": "/home/jerryocl/gitRepos/booking-microservices/src/Services/Flight/src/Flight/Flight.csproj",
+        "packagesPath": "/home/jerryocl/.nuget/packages/",
+        "outputPath": "/home/jerryocl/gitRepos/booking-microservices/src/Services/Flight/src/Flight/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jeremiahoconnell/.nuget/NuGet/NuGet.Config"
+          "/home/jerryocl/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj": {
-                "projectPath": "/Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj"
+              "/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj": {
+                "projectPath": "/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/BuildingBlocks.csproj"
               }
             }
           }
@@ -507,7 +523,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -534,6 +551,11 @@
               "version": "[8.0.3, )"
             }
           },
+          "centralPackageVersions": {
+            "Microsoft.CodeAnalysis.NetAnalyzers": "7.0.0",
+            "Microsoft.SourceLink.GitHub": "1.1.1",
+            "StyleCop.Analyzers": "1.2.0-beta.435"
+          },
           "imports": [
             "net461",
             "net462",
@@ -545,12 +567,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

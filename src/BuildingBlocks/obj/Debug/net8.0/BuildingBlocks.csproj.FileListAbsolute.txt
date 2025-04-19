@@ -315,3 +315,6 @@
 /Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll
 /Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb
 /Users/jeremiahoconnell/gitRepos/exampleRepos/microservice-examples/booking-microservices/src/BuildingBlocks/obj/Debug/net8.0/ref/BuildingBlocks.dll
+/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.dll
+/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/obj/Debug/net8.0/refint/BuildingBlocks.dll
+/home/jerryocl/gitRepos/booking-microservices/src/BuildingBlocks/obj/Debug/net8.0/BuildingBlocks.pdb
